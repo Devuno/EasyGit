@@ -1,7 +1,7 @@
 # EasyGit
 
 this repository contains custom powershell scripts to aid in my own git management
-# it creates a github folder in your desktop directory 
+*it creates a github folder in your desktop directory 
 (*PSA please use [Environment]::GetFolderPath("Desktop") instead of $home or ~\Desktop etc. This makes sure you get the Actual Desktop and not some half copy)
 
 *this currently only does basic pulls and push to repositories
