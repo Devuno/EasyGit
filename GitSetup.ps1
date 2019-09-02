@@ -26,7 +26,7 @@ Function DirCorrect
 {
 #autoplaces it'self in the right directory
 mkdir ($decktopvar + "\GitHub")
-Copy-Item -Recurse ..\GitScripts ($decktopvar + "\GitHub\") -erroraction 'silentlycontinue'
+Copy-Item -Recurse "..\$RepoName" ($decktopvar + "\GitHub\") -erroraction 'silentlycontinue'
 cd ($decktopvar + "\GitHub\$RepoName\")
 return
 }
