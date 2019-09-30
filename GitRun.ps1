@@ -37,15 +37,17 @@ return
 
 Function MakeAllUrls
 {
+Param ([string]$gitallurl)
 $folder = "A Urls\"
 mkdir $folder
-foreach ($gitulr in $githubs)
+foreach ($gitulr in $gitallurl)
     {
         if($gitulr -ne "")
         {
         MakeUrllink -givenurl $gitulr -name ($folder +("$gitulr".Split("/")[("$gitulr".Split("/").Length)-1]))
         }
     }
+    return
 }
 
 
