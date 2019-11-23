@@ -21,10 +21,12 @@ GitCommit.ps1 gets the git status of the specified directory then commits and cr
 
 GitStatus.ps1 gets all the statuses of the repositories in the github directory
 
-
 Design goals:
   - fast to use
   - dont accdentally fudge over other repo's
   - nothing to compile
   - ability to update its self without artifacts
   - learn git
+
+
+Disclaimer: this code is not meant to be built upon or intergrated into other applications i recommend if you were to do so that you re write this from scratch. this code follows absoluteley no best practices
